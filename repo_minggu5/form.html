@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1 style="color:rgb(27, 20, 20)"><center> Form </center></h1>
+        <table>
+            <form action="proses.php" method="POST">
+                <tr>
+                    <td>Nama Lengkap :</td>
+                    <td><input type="text" name="nama_lengkap" size="55"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin :</td>
+                    <td> 
+                        <input type="radio" name="jenis_kelamin" value="L">Laki-Laki / 
+                        <input type="radio" name="jenis_kelamin" value="P">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td>Alamat :</td>
+                    <td> <input type="text" name="alamat" size="55"></td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td> <input autocomplete="none"  type="email" name="email" size="55"></td>
+                </tr>
+                <tr>
+                    <td>Nomor HP :</td>
+                    <td> <input autocomplete="none"  type="text" name="nomor hp" size="55"></td>
+                </tr>
+                <tr>
+                    <<td></td>>
+                    <td>
+                        <input name="submit" type="submit" value="Submit">
+                        <input name="reset" type="reset" value="Reset">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
