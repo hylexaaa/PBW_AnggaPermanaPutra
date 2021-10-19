@@ -1,0 +1,62 @@
+h2 {
+    color: white;
+}
+h1 {
+    text-shadow: 2px 4px 10px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+body{
+    margin: 0;
+    background: url(DeskSetup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: #272626;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #2d5a2f;
+}
+
+input[type=reset]:hover {
+    background-color: #525151;
+}
+.wrap {
+    background-color:rgba(255, 255, 255, 0.7);
+    width: 800px;
+    color:black;
+    margin: 20px auto;
+    padding:50px;
+}
