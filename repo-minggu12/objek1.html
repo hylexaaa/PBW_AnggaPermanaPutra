@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar Objek Javascript</title>
+    <script>
+        var person = {
+            firstName: "Jono",
+            lastName: "Joni",
+            showName: function(){
+                alert(`Nama: ${this.firstName} ${this.lastName}`);
+            }
+        };
+        var person2 = {
+            firstName: "Agus",
+            lastName: "Hermanto",
+            showName: function(){
+                alert(`Nama: ${this.firstName} ${this.lastName}`);
+            }
+        };
+
+        person.showName();
+        person2.showName();
+    </script>
+</head>
+<body>
